@@ -36,7 +36,7 @@ points = 0
 for i in [1,2,3,4,5]:
     capital = random.choice(capitals)
     state = capitals_dict[capital]
-    option = input(capital + 'é a capital de: ')
+    option = input(capital + ' é a capital de: ')
 
     if (option == state):
         print("Você acertou, bom trabalho!")
